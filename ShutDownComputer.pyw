@@ -130,7 +130,7 @@ if os.path.isfile('shutdown.ico'):
     root.iconbitmap('shutdown.ico')
 mainWindow = MainWindow(root)
 mainWindow.pack()
-Utils.center(root)
 root.resizable(0, 0)
 root.title("Выключение компьютера")
+Utils.center(root)
 root.mainloop()
